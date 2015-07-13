@@ -23,3 +23,7 @@ This will generate HTML similar to:
     @Html.Ipsum(TextSource.BaconIpsum, 4, "div")
 
 Which will generate 4 paragraphs of Bacon replated text.
+
+##Example!
+
+![Example image](http://i.imgur.com/HfPNpns.png)
