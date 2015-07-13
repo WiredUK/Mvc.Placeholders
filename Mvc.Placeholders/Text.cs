@@ -22,8 +22,6 @@ namespace Mvc.Placeholders
 
         private const string UrlFormatBasicIpsum = "http://loripsum.net/api/{paragraphs}/plaintext";
         private const string UrlFormatBaconIpsum = "https://baconipsum.com/api/?type=meat-and-filler&paras={paragraphs}";
-
-
         #endregion
         
         public static async Task<IHtmlString> Ipsum(this HtmlHelper helper, 
