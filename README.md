@@ -9,7 +9,7 @@ Since people appear to be using it, here's some examples.
 
 ###Images
 
-    @Html.PlaceholderImage(300, 200, Source.BillMurray)
+    @Html.PlaceholderImage(300, 200, ImageSource.BillMurray)
     @Html.FpoImgImage(300, 200, "Some text")
 
 ###Text
