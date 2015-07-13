@@ -12,6 +12,14 @@ Since people appear to be using it, here's some examples.
     @Html.PlaceholderImage(300, 200, ImageSource.BillMurray)
     @Html.FpoImgImage(300, 200, "Some text")
 
+This will generate HTML similar to:
+
+    <img src="http://fillmurray.com/300/200">
+    <img src="http://fpoimg.com/300x200?text=Some+text&amp;bg_color=d1d1d1&amp;text_color=616161">
+
+
 ###Text
 
     @Html.Ipsum(TextSource.BaconIpsum, 4, "div")
+
+Which will generate 4 paragraphs of Bacon replated text.
