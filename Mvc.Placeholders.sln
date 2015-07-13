@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc.Placeholders", "Mvc.Placeholders\Mvc.Placeholders.csproj", "{17196B9B-3CB2-46E6-9DFF-8E93070BF377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc.Placeholders.Tests", "Mvc.Placeholders.Tests\Mvc.Placeholders.Tests.csproj", "{EA8A3485-1335-4039-B146-EECE7A370ED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17196B9B-3CB2-46E6-9DFF-8E93070BF377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17196B9B-3CB2-46E6-9DFF-8E93070BF377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17196B9B-3CB2-46E6-9DFF-8E93070BF377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17196B9B-3CB2-46E6-9DFF-8E93070BF377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8A3485-1335-4039-B146-EECE7A370ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8A3485-1335-4039-B146-EECE7A370ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8A3485-1335-4039-B146-EECE7A370ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8A3485-1335-4039-B146-EECE7A370ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
