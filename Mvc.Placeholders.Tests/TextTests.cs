@@ -7,17 +7,17 @@ namespace Mvc.Placeholders.Tests
     public class TextTests
     {
         [TestMethod]
-        public async Task CanGetBasicText()
+        public void CanGetBasicText()
         {
-            var text = await Text.BasicIpsum(null, 6, "span");
+            var text = Text.BasicIpsum(null, 6, "span");
 
             Assert.IsNotNull(text);
         }
 
         [TestMethod]
-        public async Task CanGetBaconText()
+        public void CanGetBaconText()
         {
-            var text = await Text.BaconIpsum(null, 6, "div");
+            var text = Text.BaconIpsum(null, 6, "div");
 
             Assert.IsNotNull(text);
         }
