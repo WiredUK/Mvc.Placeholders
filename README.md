@@ -27,3 +27,10 @@ Which will generate 4 paragraphs of Bacon replated text.
 ##Example!
 
 ![Example image](http://i.imgur.com/HfPNpns.png)
+
+
+##Nuget
+
+This is also available as a [Nuget package](http://www.nuget.org/packages/Mvc.Placeholders/), you can install it using the GUI by searching for `Mvc.Placeholders` or from the package mabager console in Visual Studio:
+
+    Install-Package Mvc.Placeholders
