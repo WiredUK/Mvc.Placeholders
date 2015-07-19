@@ -1,5 +1,6 @@
-﻿using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Mvc.Placeholders.Helpers;
+using Mvc.Placeholders.Text.Enums;
 
 namespace Mvc.Placeholders.Tests
 {
@@ -9,7 +10,7 @@ namespace Mvc.Placeholders.Tests
         [TestMethod]
         public void CanGetBasicText()
         {
-            var text = Text.BasicIpsum(null, 6, "span");
+            var text = TextHelpers.Ipsum(null, TextSource.Normal, 6, "span");
 
             Assert.IsNotNull(text);
         }
@@ -17,7 +18,7 @@ namespace Mvc.Placeholders.Tests
         [TestMethod]
         public void CanGetBaconText()
         {
-            var text = Text.BaconIpsum(null, 6, "div");
+            var text = TextHelpers.Ipsum(null, TextSource.BaconIpsum, 6, "div");
 
             Assert.IsNotNull(text);
         }

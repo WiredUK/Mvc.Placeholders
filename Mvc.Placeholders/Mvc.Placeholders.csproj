@@ -76,13 +76,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums\TextSource.cs" />
     <Compile Include="Helpers\StringFormat.cs" />
-    <Compile Include="Images.cs" />
-    <Compile Include="Enums\ImageSource.cs" />
-    <Compile Include="Enums\NicolasCageType.cs" />
+    <Compile Include="Helpers\ImageHelpers.cs" />
+    <Compile Include="Images\Enums\ImageSource.cs" />
+    <Compile Include="Images\Enums\NicolasCageType.cs" />
+    <Compile Include="Images\Generators\BaconMockup.cs" />
+    <Compile Include="Images\Generators\FillMurray.cs" />
+    <Compile Include="Images\Generators\FpoImg.cs" />
+    <Compile Include="Images\Generators\NiceNiceJpg.cs" />
+    <Compile Include="Images\Generators\StevenSeGallery.cs" />
+    <Compile Include="Images\IImage.cs" />
+    <Compile Include="Images\ImageBase.cs" />
+    <Compile Include="Images\Generators\PlaceCage.cs" />
+    <Compile Include="Images\Generators\PlaceholdIt.cs" />
+    <Compile Include="Text\Enums\TextSource.cs" />
+    <Compile Include="Text\Generators\BaconIpsum.cs" />
+    <Compile Include="Text\Generators\Loripsum.cs" />
+    <Compile Include="Text\IText.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Text.cs" />
+    <Compile Include="Helpers\TextHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

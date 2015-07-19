@@ -5,7 +5,7 @@ using System.Web.UI;
 
 namespace Mvc.Placeholders.Helpers
 {
-    public static class StringFormat
+    internal static class StringFormat
     {
         public static string FormatWith(this string format, object source)
         {

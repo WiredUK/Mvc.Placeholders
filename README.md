@@ -7,7 +7,30 @@ So this is mostly for fun but can be useful (for client ready demos, I'd probabl
 
 Since people appear to be using it, here's some examples.
 
-###Images
+###Setting up
+
+There are two ways to get images and text. You can use the HTML Helper methods or invoke the classes directly. The reason for the direct method would be that some of them have more specific options. For example, Nicolas Cage can look normal, gray or crazy.
+
+####HTML Helpers
+
+To use these, you first need to be able to reference them. So you can either add a `using` statement to each view where they are needed or add the namespace to your web.config (the one in the `Views` folder, not in the root of your project!)
+
+Per view:
+
+    @using Mvc.Placeholders.Helpers
+
+Globally:
+
+    <system.web.webPages.razor>
+      <pages ...>
+        <namespaces>
+		  ....
+	      <add namespace="Mvc.Placeholders.Helpers"/>
+	    </namespaces>
+	  </pages>
+    <system.web.webPages.razor>
+    
+#####Images
 
     @Html.PlaceholderImage(300, 200, ImageSource.BillMurray)
     @Html.FpoImgImage(300, 200, "Some text")
@@ -18,7 +41,7 @@ This will generate HTML similar to:
     <img src="http://fpoimg.com/300x200?text=Some+text&amp;bg_color=d1d1d1&amp;text_color=616161">
 
 
-###Text
+#####Text
 
     @Html.Ipsum(TextSource.BaconIpsum, 4, "div")
 
