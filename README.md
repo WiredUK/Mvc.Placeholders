@@ -1,5 +1,3 @@
----
-
 > Note: This project is no longer maintained. It was only ever meant as a toy experiment, but I'm happy to leave the code here in case anyone finds any of it useful.
 
 ---
